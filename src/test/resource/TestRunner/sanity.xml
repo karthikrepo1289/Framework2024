@@ -5,7 +5,7 @@
 	<listeners>
 		<listener class-name="com.opencart.qa.listeners.ExtentReportListener"></listener>
 		<listener class-name="com.opencart.qa.listeners.AnnotationTransformer"></listener>
-	</!listeners>
+	</listeners>
 	<parameter name="browserType" value="chrome"></parameter>
 	<test name="Open Cart Login Test">
 		<classes>
