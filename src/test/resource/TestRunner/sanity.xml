@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Sanity Testing" verbose="4" thread-count="1" parallel="tests">
-	<!--listeners>
+	<listeners>
 		<listener class-name="com.opencart.qa.listeners.ExtentReportListener"></listener>
 		<listener class-name="com.opencart.qa.listeners.AnnotationTransformer"></listener>
-	</!listeners-->
+	</!listeners>
 	<parameter name="browserType" value="chrome"></parameter>
 	<test name="Open Cart Login Test">
 		<classes>
