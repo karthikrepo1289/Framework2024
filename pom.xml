@@ -82,8 +82,13 @@
 					<version>2.22.1</version>
 					<configuration>
 						<suiteXmlFiles>
+							<!--suiteXmlFile>
+								src/test/resource/TestRunner/sanity.xml
+								</!suiteXmlFile-->
 							<suiteXmlFile>
-								src/test/resource/TestRunner/sanity.xml</suiteXmlFile>
+								${suiteXmlFile}
+							</suiteXmlFile>
+
 						</suiteXmlFiles>
 
 						<argLine>
