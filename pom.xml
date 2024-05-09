@@ -85,9 +85,6 @@
 							<suiteXmlFile>
 								src/test/resource/TestRunner/sanity.xml
 								</suiteXmlFile>
-							<!--suiteXmlFile>
-							${suiteXmlFile}
-							</suiteXmlFile-->
 
 						</suiteXmlFiles>
 
